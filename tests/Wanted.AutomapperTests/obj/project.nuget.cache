@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "knR4q66tSCA=",
+  "success": false,
+  "projectFilePath": "/Users/sachinsandhu/Documents/GitHub/6125_1/tests/Wanted.AutomapperTests/Wanted.AutomapperTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: coverlet.collector;Microsoft.NET.Test.Sdk;xunit;xunit.runner.visualstudio."
+    }
+  ]
+}

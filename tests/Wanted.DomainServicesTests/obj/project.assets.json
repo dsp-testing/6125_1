@@ -1,0 +1,174 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FluentAssertions >= 6.12.0",
+      "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Microsoft.VisualStudio.Threading.Analyzers >= 17.3.44",
+      "MinVer >= 4.2.0",
+      "NSubstitute >= 5.1.0",
+      "StyleCop.Analyzers >= 1.2.0-beta.435",
+      "coverlet.collector >= 6.0.0",
+      "xunit >= 2.5.3",
+      "xunit.runner.visualstudio >= 2.5.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sachinsandhu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sachinsandhu/Documents/GitHub/6125_1/tests/Wanted.DomainServicesTests/Wanted.DomainServicesTests.csproj",
+      "projectName": "Wanted.DomainServicesTests",
+      "projectPath": "/Users/sachinsandhu/Documents/GitHub/6125_1/tests/Wanted.DomainServicesTests/Wanted.DomainServicesTests.csproj",
+      "packagesPath": "/Users/sachinsandhu/.nuget/packages/",
+      "outputPath": "/Users/sachinsandhu/Documents/GitHub/6125_1/tests/Wanted.DomainServicesTests/obj/",
+      "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "configFilePaths": [
+        "/Users/sachinsandhu/Documents/GitHub/6125_1/NuGet.Config",
+        "/Users/sachinsandhu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/sachinsandhu/Documents/GitHub/6125_1/src/Wanted.Services/Wanted.Services.csproj": {
+              "projectPath": "/Users/sachinsandhu/Documents/GitHub/6125_1/src/Wanted.Services/Wanted.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[6.12.0, )",
+            "versionCentrallyManaged": true
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.8.0, )"
+          },
+          "Microsoft.VisualStudio.Threading.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[17.3.44, )",
+            "versionCentrallyManaged": true
+          },
+          "MinVer": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[4.2.0, )",
+            "versionCentrallyManaged": true
+          },
+          "NSubstitute": {
+            "target": "Package",
+            "version": "[5.1.0, )",
+            "versionCentrallyManaged": true
+          },
+          "StyleCop.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.2.0-beta.435, )",
+            "versionCentrallyManaged": true
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.5.3, )"
+          },
+          "xunit.runner.visualstudio": {
+            "target": "Package",
+            "version": "[2.5.3, )"
+          }
+        },
+        "centralPackageVersions": {
+          "AutoMapper": "13.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "EntityFrameworkCore.Exceptions.PostgreSQL": "8.1.2",
+          "ErrorOr": "2.0.1",
+          "FluentAssertions": "6.12.0",
+          "FluentAssertions.Analyzers": "0.32.0",
+          "FluentValidation": "11.9.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.9.1",
+          "MassTransit": "8.2.2",
+          "MassTransit.RabbitMQ": "8.2.2",
+          "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.OpenApi": "8.0.4",
+          "Microsoft.EntityFrameworkCore": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Design": "8.0.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.VisualStudio.Threading.Analyzers": "17.3.44",
+          "MinimalApis.FluentValidation": "1.0.0",
+          "MinVer": "4.2.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "NSubstitute": "5.1.0",
+          "NSubstitute.Analyzers.CSharp": "1.0.17",
+          "Serilog.AspNetCore": "8.0.1",
+          "Serilog.Enrichers.Environment": "2.3.0",
+          "Serilog.Enrichers.Process": "2.0.2",
+          "Serilog.Enrichers.Thread": "3.1.0",
+          "StyleCop.Analyzers": "1.2.0-beta.435",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: coverlet.collector;Microsoft.NET.Test.Sdk;xunit;xunit.runner.visualstudio."
+    }
+  ]
+}
